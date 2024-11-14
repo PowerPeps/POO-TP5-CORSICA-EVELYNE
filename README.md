@@ -53,7 +53,7 @@ Vous pouvez les visualiser avec un outil compatible.
 1. **Clonez le dépôt** :
    ```bash
    git clone https://github.com/PowerPeps/POO-TP5-CORSICA-EVELYNE.git
-   cd gestion-regate
+   cd POO-TP5-CORSICA-EVELYNE
    ```
 
 2. **Compilez les fichiers Java** :
