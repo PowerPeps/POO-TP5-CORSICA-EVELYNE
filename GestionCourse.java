@@ -1,9 +1,9 @@
-
+/*
 public class GestionCourse {
     public static void main(String[] args) {
         // Création des bateaux
-        MonoCoque java = new MonoCoque("Java");
-        MultiCoque tango = new MultiCoque("Tango");
+        Bateau monocoqueJava = new MonoCoque("Java");
+        Bateau multicoqueTango = new MultiCoque("Tango");
 
         // Création des équipiers
         Equipier jean = new Equipier("Jean", "barreur");
@@ -13,21 +13,30 @@ public class GestionCourse {
         // Création des équipages
         Equipage fineEquipe = new Equipage(jean);
         fineEquipe.ajoutEquipier(marie);
+
         Equipage solitaire = new Equipage(pierre);
 
         // Création de la course
-        Course courseDuVent = new Course("Course du Vent");
+        Course courseDuVent = new Course("Course du vent");
 
-        // Inscription des bateaux
-        courseDuVent.inscrireBateau(java, fineEquipe);
-        courseDuVent.inscrireBateau(tango, solitaire);
+        // Inscription des bateaux à la course
+        courseDuVent.inscrireBateau(monocoqueJava, fineEquipe);
+        courseDuVent.inscrireBateau(multicoqueTango, solitaire);
 
         // Enregistrement des temps
-        java.enregistrerTemps(120);
-        tango.enregistrerTemps(150);
+        monocoqueJava.enregistrerTemps(120); // 120 minutes pour Java
+        multicoqueTango.enregistrerTemps(150); // 150 minutes pour Tango
 
-        // Déterminer et afficher les résultats
+        // Déterminer les gagnants
         courseDuVent.trouverGagnants();
+
+        // Afficher les résultats
+        System.out.println("=== Résultats de la course ===");
+        courseDuVent.afficherResultats();
+
+        // Afficher les gagnants
+        System.out.println("=== Gagnant(s) ===");
         courseDuVent.afficherGagnants();
     }
 }
+*/
