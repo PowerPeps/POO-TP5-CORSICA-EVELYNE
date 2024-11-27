@@ -1,8 +1,7 @@
-
 public abstract class Bateau {
     private String nom;
     private Equipage equipage;
-    private double temps;
+    protected double temps;
 
     public Bateau(String nom) {
         this.nom = nom;
@@ -25,5 +24,9 @@ public abstract class Bateau {
 
     public String getNom() {
         return nom;
+    }
+
+    public Equipage getEquipage() {
+        return equipage;
     }
 }
