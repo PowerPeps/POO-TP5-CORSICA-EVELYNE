@@ -8,10 +8,7 @@ This repository contains the solution to **TP5** for Object-Oriented Programming
 - IDE or terminal for compilation
 
 ## Quick Start
-0. Compile and run the project:
-   ```bash
-   start start.bat
-   ```
+Just run `start.bat`
 
 ## Author
 **Papillon**  
